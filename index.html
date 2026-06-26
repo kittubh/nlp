@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kabya Bhattarai | Portfolio Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p+u7UO7mW+Ug0G7Q1B5jHbVHkiPzEw0i1PuU+YJ66J6CZLCxU6o7Kf7q7w8hF7KLcYdVDFIjO8E3IuU2bYBvZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">K</span>
+      <div>
+        <p class="brand-label">Portfolio</p>
+        <h1 class="brand-name">Kabya Bhattarai</h1>
+      </div>
+    </div>
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Open navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <nav class="nav-menu" id="navMenu">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#training">Training</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero">
+      <div class="section-grid hero-grid">
+        <div class="hero-copy animate-fade-up">
+          <span class="eyebrow">Hello, I'm</span>
+          <h2>Hi, I’m Kabya.</h2>
+          <p class="hero-intro">Computer Engineering student crafting intelligent applications and polished user experiences with AI, web development, and modern software practices.</p>
+          <div class="hero-meta">
+            <div>
+              <p class="meta-label">Status</p>
+              <strong>Computer Engineering Student</strong>
+            </div>
+            <div>
+              <p class="meta-label">Focus</p>
+              <strong>AI & Web Development</strong>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-card animate-fade-up delay-1">
+          <div class="profile-shell">
+            <img src="https://ui-avatars.com/api/?name=Kabya+Bhattarai&size=420&background=111827&color=ffffff&bold=true" alt="Kabya Bhattarai Profile" class="profile-photo">
+          </div>
+          <div class="profile-details glass-card">
+            <p class="profile-title">Computer Engineering Student</p>
+            <p>Specializing in AI concepts, machine learning foundations, and interactive web applications.</p>
+            <div class="profile-links">
+              <a href="#contact"><i class="fas fa-envelope"></i> Email</a>
+              <a href="#projects"><i class="fas fa-code"></i> Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section glass-section animate-fade-up">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h3>About Me</h3>
+      </div>
+      <p class="section-text">I am a Computer Engineering student with a strong interest in artificial intelligence, full-stack web development, and problem-solving through software. I enjoy turning concepts into working systems and improving the user experience with clean design and thoughtful functionality.</p>
+    </section>
+
+    <section id="education" class="section animate-fade-up delay-1">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h3>Education</h3>
+      </div>
+      <div class="info-grid">
+        <div class="info-card glass-card">
+          <h4>Institute of Engineering</h4>
+          <p>Tribhuvan University</p>
+          <p class="info-label">Current year</p>
+          <p>4th Year, 7th Semester</p>
+        </div>
+        <div class="info-card glass-card">
+          <h4>Academic focus</h4>
+          <p>Software systems, AI fundamentals, embedded systems, and web application development.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section glass-section animate-fade-up delay-2">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h3>Skills</h3>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Programming Languages</h4>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>Java</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Web Development</h4>
+          <ul>
+            <li>HTML & CSS</li>
+        
+            <li>Node.js</li>
+           
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>AI / ML</h4>
+          <ul>
+            <li>Machine Learning Basics</li>
+            <li>Data Analysis</li>
+            <li>Natural Language Processing</li>
+        
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Tools</h4>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VS Code</li>
+            <li>Figma</li>
+            <li>Firebase</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section animate-fade-up delay-3">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h3>Projects</h3>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card glass-card">
+          <div class="project-tag">AI Interview System</div>
+          <h4>AI Interview System</h4>
+          <p>A study-focused interview assistant that uses AI concepts to guide coding practice, question review, and interview preparation workflows.</p>
+          <div class="project-meta">
+            <span>Python</span>
+            <span>AI</span>
+            <span>Web Interfaces</span>
+          </div>
+        </article>
+        <article class="project-card glass-card">
+          <div class="project-tag">Academic Project</div>
+          <h4>Interactive Learning Dashboard</h4>
+          <p>A responsive web dashboard built to visualize student progress, coursework, and learning resources in a polished interface.</p>
+          <div class="project-meta">
+            <span>React</span>
+            <span>UI/UX</span>
+            <span>Data Visualization</span>
+          </div>
+        </article>
+        <article class="project-card glass-card">
+          <div class="project-tag">Personal Project</div>
+          <h4>Smart Study Planner</h4>
+          <p>A personal tool for organizing tasks, tracking goals, and managing study sessions with a clean and adaptive mobile-first design.</p>
+          <div class="project-meta">
+            <span>JavaScript</span>
+            <span>CSS</span>
+            <span>Responsive</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="training" class="section glass-section animate-fade-up delay-4">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <h3>Training & Certifications</h3>
+      </div>
+      <div class="training-grid">
+        <div class="training-card glass-card">
+          <h4>AI & ML Workshop</h4>
+          <p>Completed practical workshops focused on machine learning fundamentals, model building, and evaluation techniques.</p>
+        </div>
+        <div class="training-card glass-card">
+          <h4>Web Development Course</h4>
+          <p>Trained in modern web application development, responsive design, and interactive front-end techniques.</p>
+        </div>
+        <div class="training-card glass-card">
+          <h4>Data Analytics Seminar</h4>
+          <p>Participated in sessions covering data analysis tools, visualization best practices, and engineering workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section animate-fade-up delay-5">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <h3>Contact</h3>
+      </div>
+      <div class="contact-panel glass-card">
+        <p>If you'd like to connect, discuss a project, or review work together, feel free to reach out.</p>
+        <div class="contact-list">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <p>Email</p>
+              <a href="mailto:kabya.bhattarai@example.com">kabya.bhattarai@example.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <p>GitHub</p>
+              <a href="https://github.com/kabya-bhattarai" target="_blank" rel="noreferrer">github.com/kabya-bhattarai</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <p>LinkedIn</p>
+              <a href="https://linkedin.com/in/kabya-bhattarai" target="_blank" rel="noreferrer">linkedin.com/in/kabya-bhattarai</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
